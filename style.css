@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+ background: linear-gradient(149deg, rgba(29,24,25,1) 65%, rgba(180,25,52,1) 100%, rgba(133,109,192,0.9276960784313726) 100%, rgba(136,108,189,1) 100%, rgba(253,73,29,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home{
+    width: 990px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home p{
+    font-size: 14px;
+    color: white;
+}
+.login{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login p{
+    font-size: 14px;
+    color: white;
+}
+.login button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: white;
+}
+.mid-container{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-part{
+    width: 45%;
+    height: 350px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-part p{
+font-size: 14px;
+color: gray;
+}
+.text-part h4{
+    font-size: 60px;
+    color: white; 
+    
+}
+.text-part span{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.text-part span h5 {
+  font-size: 60px;
+  color: white;
+ 
+}
+.text-part button{
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    margin-top: 10%;
+    padding: 10px;
+}
+hr{
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    margin-right: 50px;
+  
+}
+.text-part h4{
+    font-size: 60px;
+    color: white; 
+   
+}
+.end-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+.box{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.box h6{
+font-size: 40px;
+color: white;
+margin-bottom: 10%;
+}
+.box p{
+    font-size: 12px;
+    color: #4E1E25;
+}
+.box h5{
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+.box label{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20%;
+}
+.box button{
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E79248;
+    color: white;
+}
+#new{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #48A5D4;
+    color: white;
+    margin-top: 10%;
+}
+.box:first-child{
+    width: 430px;
+    height: 250px;
+    
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 5%;
+    border: none;
+}
+.box:nth-child(2){
+    width: 400px;
+    height: 250px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.box:nth-child(2) img{
+width: 300px;
+height: 200px;
+
+}
+.box:nth-child(3){
+    width: 300px;
+    height: 250px;
+    padding-left: 2%;
+}
+.box:nth-child(4){
+    width: 300px;
+    height: 250px;
+    padding-left: 2%;
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    .mid-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .end-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .box:first-child{
+        display: flex;
+        align-items: center;
+    }
+   
+
+}
